@@ -177,9 +177,22 @@ margin-right: 50px;
 /*section hero*/
 
 .hero {
-  background-color: var(--background-color-dark);
+    background-color: var(--background-color-dark);
+}
+.hero-cont {
+
+  padding-top: 200px;
+  padding-left: 252px;
+  padding-right: 252px;
+  padding-bottom: 200px;
 }
 .hero-title {
+width: 696px;
+margin-bottom: 30px;
+margin-left: 0;
+margin-right: 0;
+
+
   color: var(--color-text-hero);
   font-weight: 900;
   font-size: 44px;
@@ -190,6 +203,12 @@ margin-right: 50px;
 }
 
 .hero-bt {
+padding-left: 32px;
+padding-right: 32px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
   background-color: var(--background-color-bt-accent);
   color: var(--color-text-hero);
   font-weight: 700;
