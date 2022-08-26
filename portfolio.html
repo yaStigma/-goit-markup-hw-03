@@ -21,21 +21,27 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav>
+    <header>
+      <div class="container header">
+        <nav class="nav">
           <a class="logo logo-dark" href="./index.html"
             ><span class="accent-logo">Web</span>Studio</a
           >
-          <ul class="list">
-            <li><a class="link-nav" href="./index.html">Студія</a></li>
-            <li><a class="link-nav active-nav" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="link-nav" href="#">Контакти</a></li>
+          <ul class="list list-nav">
+            <li class="item-nav"><a class="link-nav" href="./index.html">Студія</a></li>
+            <li class="item-nav">
+              <a class="link-nav active-nav" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="item-nav"><a class="link-nav" href="#">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="list">
-          <li><a class="link-cont" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link-cont" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list list-cont">
+          <li class="item-nav">
+            <a class="link-cont" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item-nav">
+            <a class="link-cont" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </div>
     </header>
@@ -44,31 +50,33 @@
         <div class="container">
           <h1 class="visually-hidden">Портфоліо</h1>
           <ul class="list filter">
-            <li>
+            <li class="item-filter">
               <button class="filter-bt" type="button">Усі</button>
             </li>
-            <li>
+            <li class="item-filter">
               <button class="filter-bt" type="button">Веб-сайти</button>
             </li>
-            <li>
+            <li class="item-filter">
               <button class="filter-bt" type="button">Додатки</button>
             </li>
-            <li>
+            <li class="item-filter">
               <button class="filter-bt" type="button">Дизайн</button>
             </li>
-            <li>
+            <li class="item-filter">
               <button class="filter-bt" type="button">Маркетинг</button>
             </li>
           </ul>
           <ul class="list project">
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-1.jpg" alt="Макет Веб-сайту" width="370" height="294" />
-                <h2 class="project-name">Технокряк</h2>
-                <p class="project-filter">Веб-сайт</p>
+                <div class="proj-box">
+                  <h2 class="project-name">Технокряк</h2>
+                  <p class="project-filter">Веб-сайт</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img
                   src="./images/project-2.jpg"
@@ -76,13 +84,15 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-name">
-                  Постер <span lang="en">New Orlean vs Golden Star</span>
-                </h2>
-                <p class="project-filter">Дизайн</p>
+                <div class="proj-box">
+                  <h2 class="project-name">
+                    Постер <span lang="en">New Orlean vs Golden Star</span>
+                  </h2>
+                  <p class="project-filter">Дизайн</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img
                   src="./images/project-3.jpg"
@@ -90,11 +100,13 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
-                <p class="project-filter">Додаток</p>
+                <div class="proj-box">
+                  <h2 class="project-name">Ресторан <span lang="en">Seafood</span></h2>
+                  <p class="project-filter">Додаток</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img
                   src="./images/project-4.jpg"
@@ -102,43 +114,55 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="project-name">Проєкт <span lang="en">Prime</span></h2>
-                <p class="project-filter">Маркетинг</p>
+                <div class="proj-box">
+                  <h2 class="project-name">Проєкт <span lang="en">Prime</span></h2>
+                  <p class="project-filter">Маркетинг</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-5.jpg" alt="Макет додатка" width="370" height="294" />
-                <h2 class="project-name">Проєкт <span lang="en">Boxes</span></h2>
-                <p class="project-filter">Додаток</p></a
+                <div class="proj-box">
+                  <h2 class="project-name">Проєкт <span lang="en">Boxes</span></h2>
+                  <p class="project-filter">Додаток</p>
+                </div></a
               >
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-6.jpg" alt="Макет Веб-сайту" width="370" height="294" />
-                <h2 class="project-name" lang="en">Inspiration has no Borders</h2>
-                <p class="project-filter">Веб-сайт</p>
+                <div class="proj-box">
+                  <h2 class="project-name" lang="en">Inspiration has no Borders</h2>
+                  <p class="project-filter">Веб-сайт</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-7.jpg" alt="Макет дизайну" width="370" height="294" />
-                <h2 class="project-name">Видання <span lang="en">Limited Edition</span></h2>
-                <p class="project-filter">Дизайн</p>
+                <div class="proj-box">
+                  <h2 class="project-name">Видання <span lang="en">Limited Edition</span></h2>
+                  <p class="project-filter">Дизайн</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-8.jpg" alt="Макет проекту" width="370" height="294" />
-                <h2 class="project-name">Проєкт <span lang="en">LAB</span></h2>
-                <p class="project-filter">Маркетинг</p>
+                <div class="proj-box">
+                  <h2 class="project-name">Проєкт <span lang="en">LAB</span></h2>
+                  <p class="project-filter">Маркетинг</p>
+                </div>
               </a>
             </li>
-            <li>
+            <li class="item-project">
               <a href="#" class="link-filter" target="_blank" rel="noopener noreferrer">
                 <img src="./images/project-9.jpg" alt="Макет додатка" width="370" height="294" />
-                <h2 class="project-name" lang="en">Growing Business</h2>
-                <p class="project-filter">Додаток</p>
+                <div class="proj-box">
+                  <h2 class="project-name" lang="en">Growing Business</h2>
+                  <p class="project-filter">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
@@ -146,13 +170,13 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-cont">
         <a class="logo logo-white" href="./index.html"
           ><span class="accent-logo">Web</span>Studio</a
         >
         <address>
-          <ul class="list">
-            <li>
+          <ul class="list list-address">
+            <li class="item-address">
               <a
                 class="link-address"
                 href="https://goo.gl/maps/qeLY9MRspjxgZA8L9"
@@ -161,12 +185,12 @@
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li>
+            <li class="item-address">
               <a class="link-address link-address-cont" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="item-address">
               <a class="link-address link-address-cont" href="tel:+380961111111"
                 >+38 096 111 11 11</a
               >
