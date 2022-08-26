@@ -370,7 +370,7 @@ p {
   gap: 30px;
 }
 .item-project {
-  border: 1px solid var(--background-color-box);
+  border-bottom: 1px solid var(--background-color-box);
   width: 370px;
 }
 .proj-box {
