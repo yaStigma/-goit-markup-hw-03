@@ -366,11 +366,14 @@ img {
   gap: 30px;
 }
 .item-project {
-  border-bottom: 1px solid var(--background-color-box);
+
   width: 370px;
 }
 .proj-box {
-  margin: 20px 24px;
+ padding: 20px 24px;
+  border-left: 1px solid var(--background-color-box);
+  border-right: 1px solid var(--background-color-box);
+  border-bottom: 1px solid var(--background-color-box);
 }
 
 .project-name {
