@@ -85,12 +85,13 @@ img {
   text-decoration: none;
 }
 .logo-dark {
-  padding-right: 93px;
+  margin-right: 93px;
 
   color: var(--color-text-dark);
 }
 .logo-white {
   color: var(--color-text-hero);
+
 }
 .accent-logo {
   color: var(--color-text-accent);
@@ -157,12 +158,11 @@ img {
 /*footer*/
 .footer {
   background-color: var(--background-color-dark);
-}
-.footer-cont {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 60px;  
 }
-.list-address {
+
+.address {
   margin-top: 20px;
 }
 .item-address {
@@ -190,13 +190,13 @@ img {
 
 .hero {
   background-color: var(--background-color-dark);
-}
-.hero-cont {
   padding-top: 200px;
-  padding-left: 252px;
-  padding-right: 252px;
   padding-bottom: 200px;
 }
+.hero-cont {
+    padding-left: 252px;
+  padding-right: 252px;
+  }
 .hero-title {
   width: 696px;
   margin-bottom: 30px;
@@ -306,8 +306,8 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-photo {
-  margin-bottom: 30px;
+.team-cont {
+  padding: 30px;
 }
 .team-member {
   margin-bottom: 10px;
@@ -319,8 +319,6 @@ img {
   text-align: center;
 }
 .team-function {
-  margin-bottom: 30px;
-
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
